@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+  body{
+      display: flex;
+  }
+
+  main {
+    flex: 1;
+     display: flex;
+     flex-flow: column nowrap;
+     align-items: left;
+     justify-content: left;
+     height: 100vh;
+     padding-top: 5px;
+  }
+
+.categoria {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+}
+
+.categoria .titulo {
+    flex: 0 0 100%;
+}
+
+
+
+.categoria .pelicula {
+    max-width: 175px; /*para poder apilar en vertical*/
+    gap: 10px;
+    margin: 3px;
+}
+.categoria .pelicula img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  nav {
+      width: 150px;
+      height: 100vh;
+  }
+
+  nav ul li {
+      
+      list-style-type: none;
+  }
