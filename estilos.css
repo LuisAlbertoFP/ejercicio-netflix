@@ -24,12 +24,13 @@ body {
 
 .categoria {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     margin-bottom: 20px;
 }
 
 .categoria .titulo {
     flex: 0 0 100%;
+    font-size: 1.3em;
 }
 
 .categoria .pelicula {
