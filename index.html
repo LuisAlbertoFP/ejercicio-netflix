@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="estilos.css">
     <title>Ejercicio Netflix</title>
 </head>
-<body>
+<body id="inicio">
     <nav>
+        <a href="#inicio"><img src="images/Netflix-Logo.wine.svg" alt="Netflix"></a>
         <ul>
-            <li>Inicio</li>
-            <li>Series Tv</li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#series">Series Tv</a></li>
             <li>Películas</li>
             <li>Novedades más vistas</li>
-            <li>Mi lista</li>
+            <li><a href="#lista">Mi lista</a></li>
         </ul>
     </nav>
-    <main>
+    <main >
         <div class="categoria">
             <div class="titulo">Guionistas aclamados</div>
             <div class="pelicula"><img src="images/movie-01.jpg" alt="movie-01"></div>
@@ -52,7 +53,7 @@
         </div>
 
         <div class="categoria">
-            <div class="titulo">Series Tv</div>
+            <div class="titulo" id="series">Series Tv</div>
             <div class="pelicula"><img src="images/movie-22.jpg" alt="movie-22"></div>
             <div class="pelicula"><img src="images/movie-23.jpg" alt="movie-23"></div>
             <div class="pelicula"><img src="images/movie-24.jpg" alt="movie-24"></div>
@@ -74,7 +75,7 @@
         </div>
 
         <div class="categoria">
-            <div class="titulo">Mi lista</div>
+            <div class="titulo" id="lista">Mi lista</div>
             <div class="pelicula"><img src="images/movie-36.webp" alt="movie-36"></div>
             <div class="pelicula"><img src="images/movie-37.webp" alt="movie-37"></div>
             <div class="pelicula"><img src="images/movie-38.jpg" alt="movie-38"></div>
