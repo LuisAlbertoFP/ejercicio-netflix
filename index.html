@@ -4,81 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="src/dist/estilos.css">
     <title>Ejercicio Netflix</title>
 </head>
 <body id="inicio">
-    <nav>
-        <a href="#inicio"><img src="images/netflix-seeklogo.com.svg" alt="Netflix"></a>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#series">Series Tv</a></li>
-            <li>Películas</li>
-            <li>Novedades más vistas</li>
-            <li><a href="#lista">Mi lista</a></li>
-        </ul>
+    <nav  role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a href="#inicio"><img src="images/netflix-seeklogo.com.svg" alt="Netflix"></a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#series">Series Tv</a></li>
+                <li><a href="#">Películas</a></li>
+                <li><a href="#">Novedades más vistas</a></li>
+                <li><a href="#lista">Mi lista</a></li>
+            </ul>
+        </div>
     </nav>
     <main >
         <div class="categoria">
+            
             <div class="titulo">Guionistas aclamados</div>
-            <div class="pelicula"><img src="images/movie-01.jpg" alt="movie-01"></div>
-            <div class="pelicula"><img src="images/movie-02.webp" alt="movie-02"></div>
-            <div class="pelicula"><img src="images/movie-03.webp" alt="movie-03"></div>
-            <div class="pelicula"><img src="images/movie-04.webp" alt="movie-04"></div>
-            <div class="pelicula"><img src="images/movie-05.webp" alt="movie-05"></div>
-            <div class="pelicula"><img src="images/movie-06.jpg" alt="movie-06"></div>
-            <div class="pelicula"><img src="images/movie-07.webp" alt="movie-07"></div>
+            <figure>
+            <img src="images/movie-01.jpg" alt="movie-01">
+            <img src="images/movie-02.webp" alt="movie-02">
+            <img src="images/movie-03.webp" alt="movie-03">
+            <img src="images/movie-04.webp" alt="movie-04">
+            <img src="images/movie-05.webp" alt="movie-05">
+            <img src="images/movie-06.jpg" alt="movie-06">
+            <img src="images/movie-07.webp" alt="movie-07">
+        </figure>
         </div>
 
         <div class="categoria">
+            
             <div class="titulo">Tendencias ahora</div>
-            <div class="pelicula"><img src="images/movie-08.webp" alt="movie-08"></div>
-            <div class="pelicula"><img src="images/movie-09.jpg" alt="movie-09"></div>
-            <div class="pelicula"><img src="images/movie-10.webp" alt="movie-10"></div>
-            <div class="pelicula"><img src="images/movie-11.webp" alt="movie-11"></div>
-            <div class="pelicula"><img src="images/movie-12.webp" alt="movie-12"></div>
-            <div class="pelicula"><img src="images/movie-13.webp" alt="movie-13"></div>
-            <div class="pelicula"><img src="images/movie-14.webp" alt="movie-14"></div>
+            <figure>
+            <img src="images/movie-08.webp" alt="movie-08">
+            <img src="images/movie-09.jpg" alt="movie-09">
+            <img src="images/movie-10.webp" alt="movie-10">
+            <img src="images/movie-11.webp" alt="movie-11">
+            <img src="images/movie-12.webp" alt="movie-12">
+            <img src="images/movie-13.webp" alt="movie-13">
+            <img src="images/movie-14.webp" alt="movie-14">
+        </figure>
         </div>
 
         <div class="categoria">
+            
             <div class="titulo">Comedias Hollywood</div>
-            <div class="pelicula"><img src="images/movie-15.webp" alt="movie-15"></div>
-            <div class="pelicula"><img src="images/movie-16.jpg" alt="movie-16"></div>
-            <div class="pelicula"><img src="images/movie-17.jpg" alt="movie-17"></div>
-            <div class="pelicula"><img src="images/movie-18.jpg" alt="movie-18"></div>
-            <div class="pelicula"><img src="images/movie-19.jpg" alt="movie-19"></div>
-            <div class="pelicula"><img src="images/movie-20.jpg" alt="movie-20"></div>
-            <div class="pelicula"><img src="images/movie-21.webp" alt="movie-21"></div>
+            <figure>
+            <img src="images/movie-15.webp" alt="movie-15">
+            <img src="images/movie-16.jpg" alt="movie-16">
+            <img src="images/movie-17.jpg" alt="movie-17">
+            <img src="images/movie-18.jpg" alt="movie-18">
+            <img src="images/movie-19.jpg" alt="movie-19">
+            <img src="images/movie-20.jpg" alt="movie-20">
+            <img src="images/movie-21.webp" alt="movie-21">
+        </figure>
         </div>
 
         <div class="categoria">
+            
             <div class="titulo" id="series">Series Tv</div>
-            <div class="pelicula"><img src="images/movie-22.jpg" alt="movie-22"></div>
-            <div class="pelicula"><img src="images/movie-23.jpg" alt="movie-23"></div>
-            <div class="pelicula"><img src="images/movie-24.jpg" alt="movie-24"></div>
-            <div class="pelicula"><img src="images/movie-25.webp" alt="movie-25"></div>
-            <div class="pelicula"><img src="images/movie-26.webp" alt="movie-26"></div>
-            <div class="pelicula"><img src="images/movie-27.webp" alt="movie-27"></div>
-            <div class="pelicula"><img src="images/movie-28.jpg" alt="movie-28"></div>
+            <figure>
+            <img src="images/movie-22.jpg" alt="movie-22">
+            <img src="images/movie-23.jpg" alt="movie-23">
+            <img src="images/movie-24.jpg" alt="movie-24">
+            <img src="images/movie-25.webp" alt="movie-25">
+            <img src="images/movie-26.webp" alt="movie-26">
+            <img src="images/movie-27.webp" alt="movie-27">
+            <img src="images/movie-28.jpg" alt="movie-28">
+        </figure>
         </div>
 
         <div class="categoria">
+            
             <div class="titulo">Novedades más vistas</div>
-            <div class="pelicula"><img src="images/movie-29.jpg" alt="movie-29"></div>
-            <div class="pelicula"><img src="images/movie-30.webp" alt="movie-30"></div>
-            <div class="pelicula"><img src="images/movie-31.webp" alt="movie-31"></div>
-            <div class="pelicula"><img src="images/movie-32.jpg" alt="movie-32"></div>
-            <div class="pelicula"><img src="images/movie-33.jpg" alt="movie-33"></div>
-            <div class="pelicula"><img src="images/movie-34.jpg" alt="movie-34"></div>
-            <div class="pelicula"><img src="images/movie-35.webp" alt="movie-35"></div>
+            <figure>
+            <img src="images/movie-29.jpg" alt="movie-29">
+            <img src="images/movie-30.webp" alt="movie-30">
+            <img src="images/movie-31.webp" alt="movie-31">
+            <img src="images/movie-32.jpg" alt="movie-32">
+            <img src="images/movie-33.jpg" alt="movie-33">
+            <img src="images/movie-34.jpg" alt="movie-34">
+            <img src="images/movie-35.webp" alt="movie-35">
+        </figure>
         </div>
 
         <div class="categoria">
-            <div class="titulo" id="lista">Mi lista</div>
-            <div class="pelicula"><img src="images/movie-36.webp" alt="movie-36"></div>
-            <div class="pelicula"><img src="images/movie-37.webp" alt="movie-37"></div>
-            <div class="pelicula"><img src="images/movie-38.jpg" alt="movie-38"></div>
+            
+                <div class="titulo" id="lista">Mi lista</div>
+            <figure>
+                <img src="images/movie-36.webp" alt="movie-36">
+                <img src="images/movie-37.webp" alt="movie-37">
+                <img src="images/movie-38.jpg" alt="movie-38">
+            </figure>
         </div>       
     </main>
 </body>
